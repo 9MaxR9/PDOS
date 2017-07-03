@@ -1,4 +1,4 @@
-# PDOS
+# PDOS (aka Pixel Developers Operating System)
 I made a basic operating system in c/c++ and asm.
 I wil update the source code every week.
 I am going to work on the operating system until I it has a good gui, ...
