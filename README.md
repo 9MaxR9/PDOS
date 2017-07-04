@@ -10,5 +10,5 @@ PROGRESS:
 
 
 TO BUILD THE OS JUST RUN THE BUILD.SH SCRIPT IN THE TERMINAL WITH: sudo ./build.sh
-TO RUN THE OS JUTS TYPE IN THE TERMINAL: qemu-system-i386 -kernel PDOS.bin or qemu-system-i386 -kernel PDOS.img
+TO RUN THE OS JUST TYPE IN THE TERMINAL: qemu-system-i386 -kernel PDOS.bin or qemu-system-i386 -kernel PDOS.img
 
