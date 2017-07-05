@@ -1,7 +1,11 @@
-kmain()
-{
-	char* vidmem = (char*)0xb8000;
-	vidmem[0] = 'A';
-	vidmem[1] = 0x07;
-	while(1);
+void printf(char *str) {
+    unsigned short *VideoMemory = (unsigned short*)0xb8000;
+    for (int i = 0; str[i] != '\0'; ++i)
+        VideoMemory[i] = (VideoMemory[i] & 0xFF00) | str[i];
 }
+
+kmain()
+{	
+	printf("Hello from kernel.");
+}
+
