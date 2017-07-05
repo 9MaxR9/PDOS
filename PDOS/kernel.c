@@ -7,5 +7,6 @@ void printf(char *str) {
 kmain()
 {	
 	printf("Hello from kernel.");
+	while(1);
 }
 
