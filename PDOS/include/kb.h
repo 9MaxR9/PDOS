@@ -263,13 +263,13 @@ string readStr()
                 i++;
                 break;                
         case 50:
-                printch('m');
-                buffstr[i] = 'm';
+                printch(',');
+                buffstr[i] = ',';
                 i++;
                 break;               
         case 51:
-                printch(',');
-                buffstr[i] = ',';
+                printch(';');
+                buffstr[i] = ';';
                 i++;
                 break;                
         case 52:
@@ -302,9 +302,55 @@ string readStr()
                 buffstr[i] = ' ';
                 i++;
                 break;
+	case 71:
+                printch('7');
+                buffstr[i] = '7';
+                i++;
+                break;
+	case 72:
+                printch('8');
+                buffstr[i] = '8';
+                i++;
+                break;
+	case 73:
+                printch('9');
+                buffstr[i] = '9';
+                i++;
+                break;
+	case 75:
+                printch('4');
+                buffstr[i] = '4';
+                i++;
+                break;
+	case 76:
+                printch('5');
+                buffstr[i] = '5';
+                i++;
+                break;
+	case 77:
+                printch('6');
+                buffstr[i] = '6';
+                i++;
+                break;
+	case 79:
+                printch('1');
+                buffstr[i] = '1';
+                i++;
+                break;
+	case 80:
+                printch('2');
+                buffstr[i] = '2';
+                i++;
+                break;
+	case 81:
+                printch('3');
+                buffstr[i] = '3';
+                i++;
+                break;
             }
         }
     }
+
     buffstr[i] = 0;                   
     return buffstr;
 }
